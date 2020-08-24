@@ -1,14 +1,14 @@
 # Klaviyo Code Gallery - Submission Process
 
-The Klaviyo Code Gallery is a project built by the Sales Enablement Team. It's meant to house public code snippets for developers to reference when using Klaviyo's APIs or using Django in email templates. The goal of this project is to help enhance Klaviyo's developer experience, as there's a lack of resources for developers to reference when building integrations, composing complex email templates, or getting data in and out of their Klaviyo accounts.
+The Klaviyo Code Gallery is a project built by the Sales Enablement Team. It's meant to house public code snippets for developers to reference when using Klaviyo's APIs or using Django in email templates. The goal of this project is to help enhance Klaviyo's developer experience.
 
-All code examples are contained in the **sales-success-shared** repository and should go in the folder under `apps/external/code-gallery/gallery-entries`
+All code examples are contained in this repository and should go in the folder under `entries`
 
 This README.md file will go over who can submit their code snippets, what types of snippets are best suited for the code gallery, and the process of how to submit your code snippets.
 
 ## What types of code should be submitted to the code gallery?
 
-There's no real limit to what you can and can't submit to be included in the code gallery. Any one-off scripts you've given to customers, any code you've written that does a particular action in Klaviyo, or any cool logic you've implemented in an email template are all great things that should be publicly documented, rather than having us Klaviyos as a bottleneck.
+There's no real limit to what you can and can't submit to be included in the code gallery. Any one-off scripts you've used in the past, any code you've written that does a particular action in Klaviyo, or any cool logic you've implemented in an email template are all great things that should be publicly documented, rather than having us Klaviyos as a bottleneck.
 
 Examples of code that would fit in well:
 
@@ -42,7 +42,7 @@ In the future, we should allow for external developers to contribute to the code
 
 The process is as follows:
 
-1. Clone the repository and/or pull down the code from the master branch [here](https://github.com/klaviyo/sales-success-shared/tree/master/apps/external/code-gallery) `git clone git@github.com:klaviyo/sales-success-shared.git` , or if you already have it locally, `$ git pull origin master`
+1. Clone the repository and/or pull down the code from the master branch [here](https://github.com/klaviyo/code-gallery) `git clone git@github.com:klaviyo/code-gallery.git` , or if you already have it locally, `$ git pull origin master`
 
 2. Make a new branch `$ git checkout -b your-branch`
 
@@ -54,13 +54,13 @@ The process is as follows:
 
 6. Then, create a pull request and tag Connor Barley on Github (`@cbarley10`)
 
-7. The SE team will then review the pull request, add comments, and merge your code.
+7. The Sales Enablement Team will then review the pull request, add comments, and merge your code.
 
 ## File Naming
 
 ### Folders
 
-Each submission to the code gallery needs to be in its own folder inside of the `gallery-entries` folder. Name the folder something unique and descriptive.
+Each submission to the code gallery needs to be in its own folder inside of the `entries` folder. Name the folder something unique and descriptive.
 
 **Example:** `pull-profiles-from-list`.
 
@@ -97,7 +97,7 @@ Here's an example:
           product_areas: ["data-out"],
         },
         code_urls: [
-          "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-fetch-data/FetchLeads.cls",
+          "https://github.com/klaviyo/code-gallery/blob/master/apex-klaviyo-fetch-data/FetchLeads.cls",
         ],
         difficulty: "difficult",
         description:
