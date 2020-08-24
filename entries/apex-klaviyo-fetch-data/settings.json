@@ -6,9 +6,7 @@
     "platforms": ["sfcrm"],
     "product_areas": ["data-out"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-fetch-data/FetchLeads.cls"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/apex-klaviyo-fetch-data/FetchLeads.cls"],
   "difficulty": "difficult",
   "description": "Apex script that should be inserted into Salesforce that runs once a day to pull new Klaviyo profiles into Salesforce CRM. This checks to see if the Lead exists, and if it does not, it will create a new one"
 }

@@ -7,8 +7,8 @@
     "product_areas": ["data-in"]
   },
   "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls",
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls"
+    "https://github.com/klaviyo/code-gallery/blob/master/entries/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls",
+    "https://github.com/klaviyo/code-gallery/blob/master/entries/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls"
   ],
   "difficulty": "difficult",
   "description": "A wrapper that allows for easily sending events to Klaviyo from Salesforce when certain actions are taken. Handles any Account record-related Track and Identify calls originating from Apex triggers. /ApexKlaviyoAPITest.cls contains tests"

@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["metrics", "data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-time-on-page/other-time-on-page.js"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/track-time-on-page/other-time-on-page.js"],
   "difficulty": "easy",
   "description": "A javascript snippet used to track the amount of time a cookied user has spent on a page. The event is sent with the time spent on the page as part of the event payload."
 }

@@ -7,8 +7,8 @@
     "product_areas": ["metrics", "data-in"]
   },
   "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/upload-historical-BIS/shopify-upload-historical-BIS.js",
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/upload-historical-BIS/bis.sh"
+    "https://github.com/klaviyo/code-gallery/blob/master/entries/upload-historical-BIS/shopify-upload-historical-BIS.js",
+    "https://github.com/klaviyo/code-gallery/blob/master/entries/upload-historical-BIS/bis.sh"
   ],
   "difficulty": "easy",
   "description": "A Javascript snippet that allows the user to programatically to upload historical back in stock information into Klaviyo. Must replace the path to the CSV to the location on your local machine where the CSV is hosted, as well as replace your Klaviyo Public API key in the alloted space in the script"

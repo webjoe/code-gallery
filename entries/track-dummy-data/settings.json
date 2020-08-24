@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-dummy-data/other-send-example-data-to-klaviyo.js"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/track-dummy-data/other-send-example-data-to-klaviyo.js"],
   "difficulty": "medium",
   "description": "A script that seeds a Klaviyo account with random profiles and Viewed Product events over a set period of time that you can alter. You should have 2 other files in the same folder that contain an array of email addresses and an array of products"
 }

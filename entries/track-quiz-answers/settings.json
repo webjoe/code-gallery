@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-quiz-answers/track-quiz-answers.js"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/track-quiz-answers/track-quiz-answers.js"],
   "difficulty": "easy",
   "description": "This script takes data from a webpage survey form that stores answers in Local Storage in the browser, then pushes the following to Klaviyo: <ol><li>Started Quiz Event</li><li>Profile properties of the answers that the user selected</li><li>Finished Quiz Event.</li></ol> This allows folks to run abandoned quiz flows in Klaviyo and segment profiles by their answers to the quiz. This should be pasted just before the closing <code style='font-weight: bold;'>body</code> tag in the browser"
 }

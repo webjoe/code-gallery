@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["metrics", "data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-events-to-many-accounts/track-events-to-many-accounts.py"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/track-events-to-many-accounts/track-events-to-many-accounts.py"],
   "difficulty": "easy",
   "description": "Send the same event to multiple accounts"
 }
