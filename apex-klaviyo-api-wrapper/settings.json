@@ -1,0 +1,15 @@
+{
+  "title": "Sync data from Salesforce CRM to Klaviyo using Salesforce triggers (Klaviyo Events)",
+  "platform": "sfcrm",
+  "mainLanguage": "java",
+  "tags": {
+    "platforms": ["sfcrm"],
+    "product_areas": ["data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls",
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/apex-klaviyo-api-wrapper/ApexKlaviyoAPI.cls"
+  ],
+  "difficulty": "difficult",
+  "description": "A wrapper that allows for easily sending events to Klaviyo from Salesforce when certain actions are taken. Handles any Account record-related Track and Identify calls originating from Apex triggers. /ApexKlaviyoAPITest.cls contains tests"
+}

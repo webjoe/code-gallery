@@ -1,0 +1,14 @@
+{
+  "title": "JSON-to-CSV converter (top-level keys)",
+  "platform": "api",
+  "mainLanguage": "python",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/json-to-csv-script/json-to-top-level-keys.py"
+  ],
+  "difficulty": "easy",
+  "description": "Flatten JSON object to just the top-level keys and stringified nested data"
+}

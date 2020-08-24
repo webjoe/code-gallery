@@ -1,0 +1,14 @@
+{
+  "title": "Send server-side event to multiple Klaviyo accounts",
+  "platform": "api",
+  "mainLanguage": "python",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["metrics", "data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-events-to-many-accounts/track-events-to-many-accounts.py"
+  ],
+  "difficulty": "easy",
+  "description": "Send the same event to multiple accounts"
+}

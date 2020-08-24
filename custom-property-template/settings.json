@@ -1,0 +1,14 @@
+{
+  "title": "Add Dynamic Content to Email Template",
+  "platform": "api",
+  "mainLanguage": "django",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["message-templating"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/custom-property-template/brand-affinity-template.j2"
+  ],
+  "difficulty": "medium",
+  "description": "This combination of Django and HTML allows differing content to appear in an email based on whether a customer has a custom property set to 1 (in this example, the custom property is brand affinity). Note that the name of the custom property (e.g. BRAND_ONE) and the name of the corresponding product feed must be the same. The order of the brands indicates prioritization, meaning that if Customer A has Brand One and Brand Two affinities set to 1, Customer A will see only Brand One's content. To allow customers to view content corresponding to all of their brand affinities, you could change the if - elif - elif structure of this code to if - if - if."
+}

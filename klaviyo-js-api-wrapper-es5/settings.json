@@ -1,0 +1,14 @@
+{
+  "title": "KlaviyoJS Wrapper ES5 syntax for unsupported browsers",
+  "platform": "api",
+  "mainLanguage": "javascript",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/klaviyo-js-api-wrapper-es5/klaviyo_js_api_wrapper_es5.js"
+  ],
+  "difficulty": "easy",
+  "description": "Klaviyo interface for browsers that don't support our klaviyo.js or use our standard JS library. Requires Public API Key and customer email address. Sends Track requests as if they occurred 'now' and considers them on-site activity."
+}

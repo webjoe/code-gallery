@@ -1,0 +1,14 @@
+{
+  "title": "Added to Cart - Whole Cart - Product Page",
+  "platform": "shopify",
+  "mainLanguage": "javascript",
+  "tags": {
+    "platforms": ["shopify"],
+    "product_areas": ["metrics", "data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/add-to-cart-shopify-entire-cart/shopifyAddToCart-WholeCart-ProductPage.js"
+  ],
+  "difficulty": "easy",
+  "description": "Gives the ability to track when somebody adds an item to their cart in Shopify. This metric is not normally tracked by default by the Klaviyo:Shopify integration. The code also passes information about the whole cart to Klaviyo when an item is added to the cart"
+}

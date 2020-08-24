@@ -1,0 +1,14 @@
+{
+  "title": "Detect Language from URL Parameter",
+  "platform": "api",
+  "mainLanguage": "javascript",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/detect-store-language-from-url/detect-store-lang-from-url.js"
+  ],
+  "difficulty": "easy",
+  "description": "Use a URL parameter to determine the preferred language of a browser and send it to their profile to use in segmentation/flow/content filters"
+}

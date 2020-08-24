@@ -1,0 +1,14 @@
+{
+  "title": "Tracking Klaviyo Form Interactions as Events",
+  "platform": "api",
+  "mainLanguage": "javascript",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["metrics", "data-in"]
+  },
+  "code_urls": [
+    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/track-klaviyo-form-interactions/track-klav-form-interactions.js"
+  ],
+  "difficulty": "easy",
+  "description": "Allows the user to programatically track an event each time a Klaviyo Form has been taken action upon by a known user. Actions include viewing the form e.g. 'Form Loaded', submitting the form, and closing a popup amongst others."
+}

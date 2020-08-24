@@ -1,0 +1,68 @@
+{% with brand_one= 'BRAND_ONE' brand_two= 'BRAND_TWO' brand_three= 'BRAND_THREE' %} {% if person|lookup:brand_one and person|lookup:brand_one== '1' %}
+{# Add content that should appear for customers with Brand One affinity here #}
+{% with rows=3 cols=3 product_feed=feeds|lookup:brand_one|slice:':3' %}
+<table>
+	<tbody>
+		<tr>{% for item in product_feed %}{% if item or is_editing %}
+			<th>
+			<table>
+				<tbody>
+					<tr>
+						{# Pull Brand One product feed  #}
+						<th><a href="{{ item.url }}" target="_blank"><img alt="{{ item.title }}" src="{{ item.image_thumbnail_url }}" /> </a></th>
+					</tr>
+					<tr>
+						<th>{{ item.title }}</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+			{% endif %}{% endfor %}
+		</tr>
+	</tbody>
+</table>
+{% endwith %} {% elif person|lookup:brand_two and person|lookup:brand_two== '1' %}
+{# Add content that should appear for customers with Brand Two affinity here #}
+{% with rows=3 cols=3 product_feed=feeds.brand_two|slice:':3' %}
+<table>
+	<tbody>
+		<tr>{% for item in product_feed %}{% if item or is_editing %}
+			<th>
+			<table>
+				<tbody>
+					<tr>
+						<th><a href="{{ item.url }}" target="_blank"><img alt="{{ item.title }}" src="{{ item.image_thumbnail_url }}" /> </a></th>
+					</tr>
+					<tr>
+						<th>{{ item.title }}</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+			{% endif %}{% endfor %}
+		</tr>
+	</tbody>
+</table>
+{% endwith %} {% elif person|lookup:brand_three and person|lookup:brand_three== '1' %}
+{# Add content that should appear for customers with Brand Three affinity here #}
+{% with rows=3 cols=3 product_feed=feeds.brand_three|slice:':3' %}
+<table class="KL_custom_product_block">
+	<tbody>
+		<tr>{% for item in product_feed %}{% if item or is_editing %}
+			<th>
+			<table>
+				<tbody>
+					<tr>
+						<th><a href="{{ item.url }}" target="_blank"><img alt="{{ item.title }}" src="{{ item.image_thumbnail_url }}" /> </a></th>
+					</tr>
+					<tr>
+						<th>{{ item.title }}</th>
+					</tr>
+				</tbody>
+			</table>
+			</th>
+			{% endif %}{% endfor %}
+		</tr>
+	</tbody>
+</table>
+{% endwith %} {% endif %} {% endwith %}
