@@ -6,9 +6,7 @@
     "platforms": ["klaviyo"],
     "product_areas": ["profiles"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/unset-profile-properties/unset.py"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/unset-profile-properties/unset.py"],
   "difficulty": "easy",
   "description": "Currently, staff-side only allows users to remove custom profile properties for every single profile. Unsetting allows you to remove those properties for specific profiles and it also allows you to have undefined values for special Klaviyo properties such as $first_name."
 }

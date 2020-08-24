@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/json-to-csv-script/json-to-top-level-keys.py"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/json-to-csv-script/json-to-top-level-keys.py"],
   "difficulty": "easy",
   "description": "Flatten JSON object to just the top-level keys and stringified nested data"
 }

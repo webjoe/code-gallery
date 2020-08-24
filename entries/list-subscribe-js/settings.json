@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/list-subscribe-js/subscribe-to-list.js"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/list-subscribe-js/subscribe-to-list.js"],
   "difficulty": "easy",
   "description": "Use a function to interface with Klaviyo's external subscribe endpoint. This is useful if your form submits elsewhere and you want to preserve this functionality but also submit to Klaviyo. This function can be called using: send_klaviyo_subscribe('abc123','walid.bendris@klaviyo.com','Footer')"
 }

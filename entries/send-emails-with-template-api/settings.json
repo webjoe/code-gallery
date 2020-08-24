@@ -6,9 +6,7 @@
     "platforms": ["api"],
     "product_areas": ["data-in"]
   },
-  "code_urls": [
-    "https://github.com/cbarley10/Public-Code-Gallery-Entries/blob/master/send-emails-with-template-api/fetch_send_template.py"
-  ],
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/send-emails-with-template-api/fetch_send_template.py"],
   "difficulty": "difficult",
   "description": "A python snippet that interacts with the Klaviyo APIs to programatically create email templates and send them on the fly. Used for only specific use cases."
 }
