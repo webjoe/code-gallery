@@ -1,0 +1,14 @@
+{
+  "title": "Viewed Product with Variant Info",
+  "platform": "shopify",
+  "mainLanguage": "javascript",
+  "tags": {
+    "platforms": ["shopify"],
+    "product_areas": ["metrics", "data-in"]
+  },
+  "code_urls": [
+    "https://github.com/klaviyo/code-gallery/blob/master/entries/viewed-variant-shopify/ViewedProductWithVariant.js"
+  ],
+  "difficulty": "easy",
+  "description": "Instead of the standard Shopify Viewed Product snippet, this snippet can be used to also capture variant information for the currently viewed variant and will re-trigger whenever a new variant is selected. The selector \".product-form\" must be updated to the form in which variant options are selectable in your Shopify store on a product.liquid page (in this example, the form has a the attribute class=\"product-form\"). If you are implementing this via GTM, you must also remove the \"Categories\" property since it requires liquid tags to render, a new property called \"Tags\" is also included as a fallback should this be the case and you still want to filter based on some categorization for the product."
+}
