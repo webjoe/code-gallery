@@ -18,7 +18,7 @@ private class ApexKlaviyoAPITest {
         Test.startTest();
         Test.setMock(HttpCalloutMock.class, new SingleRequestMock());
         // Add the Klaviyo public API key for your live or testing account
-        String publicKey = 'JzeZKS';
+        String publicKey = 'PUBLIC API KEY HERE';
         // Add a Salesforce Account record ID (that has associated Contact records)
         // that you'd like to use for this test
         ApexKlaviyoAPI updateJob = new ApexKlaviyoAPI('001d0000022PcT9AAK');

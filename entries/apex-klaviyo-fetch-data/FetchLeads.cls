@@ -2,7 +2,7 @@ Http http = new Http();
 HttpRequest request = new HttpRequest();
 public DateTime NOW = datetime.now();
 public Long LAST_24 = NOW.addDays(-1).getTime();
-request.setEndpoint('https://a.klaviyo.com/api/v1/metric/H7hJPA/timeline?api_key=pk_ff3901982a4b1467a2d52291d757e4b362&since=' + LAST_24);
+request.setEndpoint('https://a.klaviyo.com/api/v1/metric/H7hJPA/timeline?api_key=API_KEY_HERE&since=' + LAST_24);
 request.setMethod('GET');
 HttpResponse response = http.send(request);
 
