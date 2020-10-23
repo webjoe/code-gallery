@@ -1,10 +1,14 @@
 var _learnq = _learnq || []
-sendViewedProduct()
-$(".product-form :input").change(function() {
-  sendViewedProduct()
-})
 
-function sendViewedProduct(){
+function sendViewedProduct(item){
+  _learnq.push(["track", "Viewed Product", item])
+}
+
+function sendAddedToCart(item){
+  _learnq.push(['track', 'Added to Cart', item]);
+}
+
+function getProductVariant(callback){
   product_handle = product_handle = location.href.split( "/" ).pop().split( "?" )[0]
   product_id = location.href.split( "variant=" )[1]
   jQuery.getJSON("/products/"+product_handle+".js", function(product) {
@@ -27,6 +31,15 @@ function sendViewedProduct(){
       CompareAtPrice: product.compare_at_price_max/100,
       Variant: variant_info
     }
-    _learnq.push(["track", "Viewed Product test", item])
+    callback(item);
   })
 }
+
+getProductVariant(sendViewedProduct)
+$("PRODUCT_OPTION_FORM_SELECTOR :input").change(function() {
+  getProductVariant(sendViewedProduct)
+})
+
+$("ADDED_TO_CART_BUTTON_SELECTOR").on("click", function() {
+  getProductVariant(sendAddedToCart)
+})
