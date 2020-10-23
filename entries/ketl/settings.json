@@ -1,0 +1,12 @@
+{
+  "title": "Klaviyo ETL (KETL)",
+  "platform": "api",
+  "mainLanguage": "python",
+  "tags": {
+    "platforms": ["api"],
+    "product_areas": ["data-in","data-out"]
+  },
+  "code_urls": ["https://github.com/klaviyo/code-gallery/blob/master/entries/ketl/ketl.py"],
+  "difficulty": "medium",
+  "description": "Library of utility functions for getting data in and out of Klaviyo and other systems and transforming it into different formats"
+}
